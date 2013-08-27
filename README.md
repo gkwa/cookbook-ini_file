@@ -1,0 +1,1 @@
+Simple cookbook to demonstrate a technique for [a stackoverflow question](http://stackoverflow.com/questions/18451814/chef-recipe-to-create-template-with-nested-data/18465579?noredirect=1#comment27152367_18465579).
