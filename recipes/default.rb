@@ -18,8 +18,8 @@
 #
 
 template '/tmp/settings.ini' do
-  owner  "www_data"
-  group  "www_data"
+  owner  "root"
+  group  "root"
   mode   "0644"
   source "settings.ini.erb"
   variables({
