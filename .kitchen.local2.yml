@@ -99,4 +99,9 @@ suites:
 - name: multi_instance
   run_list:
   - recipe[test::default]
-  attributes: { "settings_ini": { "quantity": 1, "section_name": { "width": 10, "height": 20 }}}
+  attributes:
+    settings_ini:
+      quantity: "1"
+      section_name:
+        width: 10
+        height: 20
